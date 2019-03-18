@@ -1,0 +1,7 @@
+.catalog{
+    transition: 1s all;
+    
+}
+.catalog.preload{
+    opacity: 0.5;
+}

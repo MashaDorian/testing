@@ -1,0 +1,34 @@
+@import url("/css/blocks/basket.css");
+@import url("/css/blocks/catalog.css");
+@import url("/css/blocks/header.css");
+@import url("/css/blocks/logo.css");
+@import url("/css/blocks/navigation.css");
+@import url("/css/blocks/wrapper.css");
+@import url("/css/blocks/user-info.css");
+.main_header {
+  text-align: center;
+}
+
+.catalog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product {
+  width: 22%;
+  min-width: 250px;
+}
+
+.product__img {
+  width: 100%;
+  border: 1px solid #c2c2c2;
+  min-height: 300px;
+  background: center center/ 90% no-repeat;
+}
+/*# sourceMappingURL=catalog.css.map */

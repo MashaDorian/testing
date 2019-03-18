@@ -1,0 +1,13 @@
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.user-info__pic{
+    background: url(/images/catalog/prof.jpg) center  center / cover no-repeat;
+    width: 20px;
+    height: 20px;
+}
+.text_active{
+    color:orange;
+}
